@@ -16,13 +16,13 @@ This project is an Open-source for the people who are interested in approving th
 2. Clone the forked repository to your local machine.
 
 ```markdown
-git clone https://github.com/your-username/devvsakib/power-the-web.git
+git clone https://github.com/ezequielbugnon/interview-challenges.git
 ```
 
 3. change the present working directory
 
 ```markdown
-cd power-the-web
+cd interview-challenges
 ```
 4. Open CMD in your current directory and install npm packages using command.
 ```markdown
