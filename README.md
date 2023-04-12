@@ -7,7 +7,7 @@ This project is an Open-source for the people who are interested in approving th
 ## How to Contribute to this project
 
 1. [Local Development](https://github.com/ezequielbugnon/interview-challenges#local-development)
-1. [What you can do](https://github.com/ezequielbugnon/interview-challenges#local-development)
+2. [What you can do](https://github.com/ezequielbugnon/interview-challenges#what-you-can-do)
 
 ### Local Development
 
