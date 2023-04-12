@@ -4,6 +4,7 @@ import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
+import Button from "@mui/material/Button";
 import CardSolution from "./CardSolution";
 import { Challenge } from "../models/challenge";
 
@@ -23,14 +24,21 @@ const ContainerGrid: React.FC<ContainerGridProps> = ({ challenge }) => {
   return (
     <Box sx={{ flexGrow: 1 }}>
       {challenge.solutions.length === 0 ? (
-        <Typography
+        <>
+         <Typography
           variant="h3"
           component="h2"
           paddingTop={5}
           paddingBottom={4}
         >
-          Welcome to Interview Challenges Project
+          You don't have any solutions yet, please add one. 
         </Typography>
+           <a target="_blank" href={"https://github.com/ezequielbugnon/interview-challenges"} style={{textDecoration: "none"}}>
+          <Button variant="contained" size="large">
+            Collaborate
+          </Button>
+          </a>
+        </>
       ) : (
         <Grid container spacing={2}>
           <Grid item xs={4}>
