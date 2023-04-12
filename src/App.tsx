@@ -1,10 +1,11 @@
-import DrawerApp from "./components/DrawerApp"
+import DrawerApp from "./components/DrawerApp";
+import { challenges } from "./data/challenge.json";
 
 function App() {
 
   return (
     <div className="App">
-      <DrawerApp/>
+      <DrawerApp challenges={challenges}/>
     </div>
   )
 }
