@@ -62,24 +62,6 @@
       ],
       "Comments": "We want to see how you work with: Components, Routes API consumption, State handler, Layout and integration tests. Suggested API(https://developers.music-story.com/developers/artist).",
       "solutions": []
-    },
-    {
-        "id": 3,
-        "title": "Band challenge",
-        "goals": "Build a web page for your favorite band. A fun challenge can be creating a webpage for your favorite musical artist. Start by using only static HTML, and if you want to challenge yourself, even more, add CSS and JavaScript. Then, for extra credit, build it in a front-end framework like React and make it an interactive experience.",
-        "steps": [
-          {
-            "step": "You will need to create a pagination and responsive layout"
-          },
-          {
-            "step": "Create the filters that you deem necessary"
-          },
-          {
-            "step": "Create several routes."
-          }
-        ],
-        "Comments": "We want to see how you work with: Components, Routes API consumption, State handler, Layout and integration tests. Suggested API(https://developers.music-story.com/developers/artist).",
-        "solutions": []
-      }
+    }
   ]
 }
