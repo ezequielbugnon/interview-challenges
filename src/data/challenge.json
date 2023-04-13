@@ -1,50 +1,85 @@
 {
-    "challenges": [
-      {
-        "id": 1,
-        "title": "Legal articles backend challenge",
-        "goals":"The purpose of this test is to assess the candidate's skills as well as the ability to develop efficient and scalable solutions. Candidate must implement a RESTful API. Create a script to process data and a database to store information related to legal articles.",
+  "challenges": [
+    {
+      "id": 1,
+      "title": "Legal articles backend challenge",
+      "goals": "The purpose of this test is to assess the candidate's skills as well as the ability to develop efficient and scalable solutions. Candidate must implement a RESTful API. Create a script to process data and a database to store information related to legal articles.",
+      "steps": [
+        {
+          "step": "Implement a database to store data from legal articles.Each article must have the following fields: ID, Title, Author, Content, Date of publication, Category (Civil, Criminal, Labor, etc.)."
+        },
+        {
+          "step": "Create a RESTful API that allows the following operations: List all legal articles sorted by publication date; Filter legal articles by category (Civil, Criminal, Labor, etc.); Search legal articles by key term in title or content."
+        },
+        {
+          "step": "Create a script and connect to the API. Retrieve data from legal articles. Generate a report in CSV format with information such as: Number of articles per category, number of articles per author, average words per article."
+        },
+        {
+          "step": "Tests and Documentation (Optional): Write unit tests for the API with the goal of achieving as much coverage as possible. Integration tests that verify correct communication with the API until report generation. Documentation is a key part of development. Tip: Explain the necessary steps for another developer to be able to run the project on your local machine."
+        }
+      ],
+      "Comments": "Feel free to use other tools you deem necessary to complete the challenge, they will also be evaluated in a complementary way",
+      "solutions": [
+        {
+          "url": "https://github.com/ezequielbugnon/solution-legal-articles",
+          "author": "ezequielbugnon",
+          "technologies": "Node MySql Flutter"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Character challenge",
+      "goals": "The project consists of a searchable character list screen and a details screen that should contain as much information as possible and an option to favorite the character.The layout is up to you, any extra functionality is welcome.",
+      "steps": [
+        {
+          "step": "You will need to create a pagination and responsive layout"
+        },
+        {
+          "step": "Create the filters that you deem necessary"
+        },
+        {
+          "step": "Option to favorite the character in the list and details page"
+        }
+      ],
+      "Comments": "We want to see how you work with: Components, Routes API consumption, State handler, Layout and integration tests. Suggested API(https://rickandmortyapi.com/documentation/).",
+      "solutions": []
+    },
+    {
+      "id": 3,
+      "title": "Band challenge",
+      "goals": "Build a web page for your favorite band. A fun challenge can be creating a webpage for your favorite musical artist. Start by using only static HTML, and if you want to challenge yourself, even more, add CSS and JavaScript. Then, for extra credit, build it in a front-end framework like React and make it an interactive experience.",
+      "steps": [
+        {
+          "step": "You will need to create a pagination and responsive layout"
+        },
+        {
+          "step": "Create the filters that you deem necessary"
+        },
+        {
+          "step": "Create several routes."
+        }
+      ],
+      "Comments": "We want to see how you work with: Components, Routes API consumption, State handler, Layout and integration tests. Suggested API(https://developers.music-story.com/developers/artist).",
+      "solutions": []
+    },
+    {
+        "id": 3,
+        "title": "Band challenge",
+        "goals": "Build a web page for your favorite band. A fun challenge can be creating a webpage for your favorite musical artist. Start by using only static HTML, and if you want to challenge yourself, even more, add CSS and JavaScript. Then, for extra credit, build it in a front-end framework like React and make it an interactive experience.",
         "steps": [
-            {
-                "step": "Implement a database to store data from legal articles.Each article must have the following fields: ID, Title, Author, Content, Date of publication, Category (Civil, Criminal, Labor, etc.)."
-            },
-            {
-                "step": "Create a RESTful API that allows the following operations: List all legal articles sorted by publication date; Filter legal articles by category (Civil, Criminal, Labor, etc.); Search legal articles by key term in title or content."
-            },
-            {
-                "step": "Create a script and connect to the API. Retrieve data from legal articles. Generate a report in CSV format with information such as: Number of articles per category, number of articles per author, average words per article."
-            }, 
-            {
-                "step": "Tests and Documentation (Optional): Write unit tests for the API with the goal of achieving as much coverage as possible. Integration tests that verify correct communication with the API until report generation. Documentation is a key part of development. Tip: Explain the necessary steps for another developer to be able to run the project on your local machine."
-            }
+          {
+            "step": "You will need to create a pagination and responsive layout"
+          },
+          {
+            "step": "Create the filters that you deem necessary"
+          },
+          {
+            "step": "Create several routes."
+          }
         ],
-        "Comments": "Feel free to use other tools you deem necessary to complete the challenge, they will also be evaluated in a complementary way",
-        "solutions": [
-            {
-                "url": "https://github.com/ezequielbugnon/solution-legal-articles",
-                "author": "ezequielbugnon",
-                "technologies": "Node MySql Flutter"
-            }
-        ]
-      },
-      {
-        "id": 2,
-        "title": "Character challenge",
-        "goals":"The project consists of a searchable character list screen and a details screen that should contain as much information as possible and an option to favorite the character.The layout is up to you, any extra functionality is welcome.",
-        "steps": [
-            {
-                "step": "You will need to create a pagination and responsive layout"
-            },
-            {
-                "step": "Create the filters that you deem necessary"
-            },
-            {
-                "step": "Option to favorite the character in the list and details page"
-            }
-        ],
-        "Comments": "We want to see how you work with: Components, Routes API consumption, State handler, Layout and integration tests. Suggested API(https://rickandmortyapi.com/documentation/).",
-        "solutions": [
-        ]
+        "Comments": "We want to see how you work with: Components, Routes API consumption, State handler, Layout and integration tests. Suggested API(https://developers.music-story.com/developers/artist).",
+        "solutions": []
       }
-    ]
-  }
+  ]
+}
