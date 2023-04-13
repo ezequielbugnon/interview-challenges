@@ -1,0 +1,10 @@
+.people-svg{
+    width: 50%;
+}
+
+
+@media(max-width: 850px) {
+   .people-svg{
+        display: none;
+   }
+}
