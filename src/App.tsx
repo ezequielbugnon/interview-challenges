@@ -1,5 +1,7 @@
 import DrawerApp from "./components/DrawerApp";
 import { challenges } from "./data/challenge.json";
+import './main.css';
+
 
 function App() {
 
