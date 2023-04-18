@@ -2,4 +2,4 @@
 
 ![Interview Challenges Project](../assets/banner.png)
 
-Este proyecto es un Open-source para quienes esten interesados en mejorar y practicar para los desafios tecnicos para nuevos puesto de trabajo especially especialmente aquellos desarrolladores juniors. Aqui encontraras tests similares a los que las grandes companias solicitan. 
+Este proyecto es un Open-source para quienes esten interesados en mejorar y practicar para los desafios tecnicos de nuevos puesto de trabajo especialmente aquellos desarrolladores juniors. Aqui encontraras tests similares a los solicitados por las grandes compañias solicitan. 
