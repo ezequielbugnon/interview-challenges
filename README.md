@@ -87,7 +87,7 @@ If the challenge has no solutions yet you must leave the array empty.
 
 | Language   | link       |
 | ---------- | -----------|
-| Spanish  |   [spanish translate](https://github.com/ezequielbugnon/interview-challenges/public/translations/spanish.md)  |
+| Spanish  |   [spanish translate](https://github.com/ezequielbugnon/interview-challenges/blob/main/public/translations/spanish.md)  |
 
 
 ### Note
