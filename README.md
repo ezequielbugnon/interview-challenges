@@ -80,7 +80,15 @@ If the challenge has no solutions yet you must leave the array empty.
 | Material-UI   | ![Material-UI](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white) |
 | JavaScript | ![JavaScript](https://img.shields.io/badge/javascript-EFD81C?style=for-the-badge&logo=javascript&logoColor=white) |
 | React      | ![React](https://img.shields.io/badge/react-blue?style=for-the-badge&logo=react&logoColor=navyblue)               |
-| Vite       | ![Vite](https://img.shields.io/badge/vite-5BB4FF?style=for-the-badge&logo=vite&logoColor=FFC018)                  |
+| Vite       | ![Vite](https://img.shields.io/badge/vite-5BB4FF?style=for-the-badge&logo=vite&logoColor=FFC018)  
+
+###  translations
+
+
+| Language   | link       |
+| ---------- | -----------|
+| Spanish  |   [spanish translate](https://github.com/ezequielbugnon/interview-challenges/public/translations/spanish.md)  |
+
 
 ### Note
 
