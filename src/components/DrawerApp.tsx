@@ -53,7 +53,7 @@ const DrawerApp: React.FC<Props> = (props: Props) => {
             style={{ color: "white" }}
             size="small"
           >   
-        <Typography variant="h7" noWrap component="div" align="center" sx={{"margin": "11px", "fontSize": "16.9px", "fontWeight": "bold", "height": "33.5px"}}>
+        <Typography noWrap component="div" align="center" sx={{"margin": "11px", "fontSize": "16.9px", "fontWeight": "bold", "height": "33.5px"}}>
                 INTERVIEW CHALLENGES
         </Typography>
       </Button>
