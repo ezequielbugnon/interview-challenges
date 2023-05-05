@@ -46,7 +46,7 @@ const DrawerApp: React.FC<Props> = (props: Props) => {
   };
 
   const drawer = (
-    <div style={{ backgroundColor: "#1E2859", height: "100%", color: "white" }}>
+    <div style={{ backgroundColor: "#1E2859", height: "100%", color: "white", overflow: 'hidden' }}>
       <Button
             variant="text"
             onClick={() => setStateChallenge(initalState)}
