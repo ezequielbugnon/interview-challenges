@@ -47,7 +47,15 @@ const DrawerApp: React.FC<Props> = (props: Props) => {
 
   const drawer = (
     <div style={{ backgroundColor: "#1E2859", height: "100%", color: "white" }}>
-      <Toolbar />
+      <Button
+            variant="text"
+            onClick={() => setStateChallenge(initalState)}
+            style={{ color: "white" }}
+          >   
+        <Typography variant="h7" noWrap component="div" align="center" sx={{"margin": "11px", "fontSize": "16.9px", "fontWeight": "bold"}}>
+                INTERVIEW CHALLENGES
+        </Typography>
+      </Button>
       <Divider style={{ backgroundColor: "white" }} />
       <List>
         <ListItem>
@@ -91,15 +99,6 @@ const DrawerApp: React.FC<Props> = (props: Props) => {
           >
             <MenuIcon />
           </IconButton>
-          <Button
-            variant="text"
-            onClick={() => setStateChallenge(initalState)}
-            style={{ color: "white" }}
-          >
-            <Typography variant="h6" noWrap component="div">
-              Interview Challenges
-            </Typography>
-          </Button>
         </Toolbar>
       </AppBar>
       <Box
